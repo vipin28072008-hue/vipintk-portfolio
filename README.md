@@ -1,2 +1,0 @@
-# vipintk-portfolio
-
