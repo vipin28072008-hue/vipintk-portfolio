@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vipin T.K - Data Cleaning Freelancer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f9fa;
+      color: #333;
+    }
+    /* Header + Navbar */
+    header {
+      background: #0d6efd;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    .logo {
+      text-align: left;
+    }
+    .logo h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+    .logo p {
+      margin: 0;
+      font-size: 0.9rem;
+    }
+    nav {
+      display: flex;
+      gap: 1.5rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffc107;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+      color: #0d6efd;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #0d6efd;
+    }
+    .testimonials, .contact {
+      text-align: center;
+    }
+    form {
+      max-width: 500px;
+      margin: auto;
+      background: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    form input, form textarea {
+      width: 100%;
+      margin: 0.5rem 0;
+      padding: 0.8rem;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+    form button {
+      background: #0d6efd;
+      color: white;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .socials {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+    .socials a {
+      color: #0d6efd;
+      font-size: 1.5rem;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header with Logo + Navbar -->
+  <header>
+    <div class="logo">
+      <h1>Vipin T.K</h1>
+      <p>I Clean & Prepare Data for Startups</p>
+    </div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+<!-- Home Section -->
+<section id="welcome" style="text-align: center; padding: 3rem 2rem; background: #ffffff;">
+  <h2 style="color: #0d6efd;">👋 Welcome!</h2>
+  <p style="max-width: 700px; margin: auto; font-size: 1.1rem; line-height: 1.6;">
+    Hi, I'm <strong>Vipin T.K</strong> — a 17-year-old Python developer who helps <strong>startups</strong> and 
+    <strong>small businesses</strong> save time by cleaning, transforming, and validating messy datasets.  
+    I turn your raw CSV, JSON, and text data into <strong>clean, structured, and ready-to-use datasets</strong> 
+    for AI, analytics, and reporting.  
+    <br><br>
+    Right now, I’m working <span style="color:green; font-weight:bold;">completely free</span> to build trust <br>  
+    Let me help your startup move faster with clean, reliable data!
+  </p>
+</section>
+
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Services + Pricing</h2>
+    <div class="services">
+
+      <div class="card">
+        <h3>Data Cleaning</h3>
+        <p>Remove duplicates, fix missing values, standardize formats, drop irrelevant columns.</p>
+        <p><strong>Normally $10+</strong> <br> <span style="color:green">Now Free 🚀</span></p>
+        <p>⏱ Time: 2–4 hours (based on dataset size)</p>
+      </div>
+
+      <div class="card">
+        <h3>Data Transformation</h3>
+        <p>Merge files, group/pivot data, convert formats (CSV → JSON).</p>
+        <p><strong>Normally $20+</strong> <br> <span style="color:green">Now Free 🚀</span></p>
+        <p>⏱ Time: 3–5 hours (based on dataset size)</p>
+      </div>
+
+      <div class="card">
+        <h3>Text & String Cleaning</h3>
+        <p>Remove unwanted text, regex extractions, normalize casing & typos.</p>
+        <p><strong>Normally $15+</strong> <br> <span style="color:green">Now Free 🚀</span></p>
+        <p>⏱ Time: 2–3 hours (based on dataset size)</p>
+      </div>
+
+      <div class="card">
+        <h3>Data Validation & Report</h3>
+        <p>Detect invalid entries, outliers, missing values. Deliver a Data Health Report.</p>
+        <p><strong>Normally $25+</strong> <br> <span style="color:green">Now Free 🚀</span></p>
+        <p>⏱ Time: 3–5 hours (based on dataset size)</p>
+      </div>
+
+      <div class="card">
+        <h3>Automation Script</h3>
+        <p>Python script that auto-cleans datasets (weekly/monthly). Saves time, repeatable.</p>
+        <p><strong>Normally $50+</strong> <br> <span style="color:green">Now Free 🚀</span></p>
+        <p>⏱ Time: 5–8 hours (based on dataset size & complexity)</p>
+      </div>
+
+      <div class="card">
+        <h3>EDA (Exploratory Data Analysis)</h3>
+        <p>Summary stats, charts, correlations, missing value insights.</p>
+        <p><strong>Normally $20+</strong> <br> <span style="color:green">Now Free 🚀</span></p>
+        <p>⏱ Time: 3–4 hours (based on dataset size)</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>E-Commerce Sales Cleanup</h3>
+        <p>Cleaned & standardized sales data for business insights.</p>
+        <a href="https://github.com/vipin28072008-hue/E-Commerce-Sales-Cleanup" target="_blank" class="button">View Project</a>
+      </div>
+      <div class="card">
+        <h3>Social Media Data Cleanup</h3>
+        <p>Processed raw social media data into structured format.</p>
+        <a href="https://github.com/vipin28072008-hue/Social-media-Data-cleanup" target="_blank" class="button">View Project</a>
+      </div>
+      <div class="card">
+        <h3>Healthcare Data Cleanup</h3>
+        <p>Cleaned messy healthcare datasets for research-ready use.</p>
+        <a href="https://github.com/vipin28072008-hue/Healthcare-Data-cleanup" target="_blank" class="button">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi, I'm <strong>Vipin T.K</strong>, a 17-year-old Python developer specializing in data cleaning <br> and preprocessing using pandas, NumPy, matplotlib, seaborn and also sklearn. 
+    I help startups <br> save time by turning messy raw data into clean, structured datasets ready for AI and analytics. <br> Right now, all my work is free as I build trust and portfolio.</p>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="testimonials">
+    <h2>💬 Testimonials</h2>
+    <p>Submit your testimonial after working with me!</p>
+    <form action="https://formspree.io/f/xwpneggn" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="text" name="startup" placeholder="Your Startup/Company" required />
+      <textarea name="message" placeholder="Your Testimonial" rows="5" required></textarea>
+      <button type="submit">Submit Testimonial</button>
+    </form>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>📬 Contact Me</h2>
+    <p>Let’s connect! Reach me through:</p>
+    <div class="socials">
+      <a href="mailto:vipin2807k1209@gmail.com"><i class="fas fa-envelope"></i></a>
+      <a href="https://github.com/vipin28072008-hue" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/vipin-t-k-2807-vipin/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://x.com/Vipin2807k?t=kfxrrIVHEda-0heGqvHI8Q&s=08" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+    </div>
+  </section>
+
+</body>
+</html>
